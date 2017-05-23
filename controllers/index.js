@@ -1,5 +1,6 @@
 var express = require('express');
-var Router = express.Router();
+var router = new express.Router();
+
 
 var filmRouter = require('./films.js');
 
